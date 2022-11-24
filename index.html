@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Javascript Avanzado</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <div class="container mt-3">
+        <h2>Ejercicios Propuestos</h2>
+        <h4>Alumna: Luisa Chavez</h4>
+        <br>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#menu1">Ejercicio 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#menu2">Ejercicio 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#menu3">Ejercicio 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#menu4">Ejercicio 4</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#menu5">Ejercicio 5</a>
+            </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div id="menu1" class="container tab-pane active"><br>
+                <h3>1.</h3>
+                <p>Ordernar los pokemons por base_damage de menor a mayor.</p>
+                <button class ="correr" type="submit">Solucion</button>
+                <script src="eje1.js"></script>
+                
+            </div>
+            <div id="menu2" class="container tab-pane fade"><br>
+                <h3>2.</h3>
+                <p>Crear una funcion para ordernar los pokemons dependiendo de el argumento que se ingrese en la funcion. Pueden ingresar: type, base_damage, base_hp o speed.</p>
+            </div>
+            <div id="menu3" class="container tab-pane fade"><br>
+                <h3>3.</h3>
+                <p>Crear una funcion que filtre el objeto pokemons y devuelva un arreglo con los pokemons filtrados. La funcion debe aceptar un argumento para filtrar por type de pokemon.</p>
+            </div>
+            <div id="menu4" class="container tab-pane fade"><br>
+                <h3>4.</h3>
+                <p>Crear un objeto llamado Pokemon Master que tenga los siguientes atributos: id: number, name: string, created_date: string, y pokemon: array of objects.</p>
+            </div>
+            <div id="menu5" class="container tab-pane fade"><br>
+                <h3>5.</h3>
+                <p>Crear una funcion que de manera aleatoria agregue un nuevo pokemon al atributo pokemon de Pokemon Master.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+.tabla-pokemon{
+    background-color: rgb(212, 212, 212);
+}
+
+.tabla-pokemon .row {
+    border: 5px;
+}
