@@ -11,6 +11,8 @@ let pokemons = [
     {id: 10, name: "evee", type: "normal", base_damage: 10, base_hp: 12, speed: 30},
 ]
 
+//2. Crear una funcion para ordernar los pokemons dependiendo de el argumento que se ingrese en la funcion. Pueden ingresar: type, base_damage, base_hp o speed.
+
 function sortPokemon (argument){
     let validInput = ["type", "base_damage", "base_hp", "speed"]
     if(validInput.includes(argument)) {

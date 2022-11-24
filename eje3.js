@@ -11,6 +11,7 @@ let pokemons = [
     {id: 10, name: "evee", type: "normal", base_damage: 10, base_hp: 12, speed: 30},
 ]
 
+//3. Crear una funcion que filtre el objeto pokemons y devuelva un arreglo con los pokemons filtrados. La funcion debe aceptar un argumento para filtrar por type de pokemon.
 function filterPokemon(argument){
     let filteredPokemons = pokemons.filter(pokemon => pokemon.type === argument)
     let result = filteredPokemons.length === 0 ? "Tipo de pokemon no encontrado" : filteredPokemons

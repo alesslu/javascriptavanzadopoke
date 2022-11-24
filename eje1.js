@@ -11,6 +11,9 @@ let pokemons = [
     { id: 10, name: "evee", type: "normal", base_damage: 10, base_hp: 12, speed: 30 },
 ]
 
+ 
+//1. Ordernar los pokemons por base_damage de menor a mayor.
+
 pokemons.sort(function (a, b) { a.base_damage - b.base_damage })
 console.log(pokemons)
 
